@@ -12,6 +12,8 @@ namespace GetADate.Models
         public enumUserSource Source;
         public string SocialMediaId;   //fbid, twitterid
 
+
+
         //personal info
         public string Nickname;
         public string Email;
