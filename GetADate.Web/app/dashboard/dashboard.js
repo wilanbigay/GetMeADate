@@ -1,4 +1,5 @@
-﻿(function () {
+﻿
+(function () {
     'use strict';
     var controllerId = 'dashboard';
     angular.module('app').controller(controllerId, ['common', 'datacontext', dashboard]);
@@ -23,6 +24,7 @@
             common.activateController(promises, controllerId)
                 .then(function () { log('Activated Dashboard View'); });
         }
+        
 
         function getMessageCount() {
             return datacontext.getMessageCount().then(function (data) {
