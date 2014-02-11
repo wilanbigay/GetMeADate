@@ -21,7 +21,7 @@ namespace GetADate.Models
         public string RegisterDate;
         public DateTime BirthDate;
         public string Bio;
-        public string Description; //delete this
+        
 
     }
 
